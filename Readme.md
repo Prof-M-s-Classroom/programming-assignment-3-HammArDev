@@ -2,10 +2,15 @@
 # Prim's Algorithm with Min Heap and Adjacency Matrix
 
 ## Author
-Your Name Here
+Hamish Arora
 
 ## Description
-Briefly describe what your program does and how the code is structured.
+This program does 2 things:
+- Represent an undirected, weighted graph 
+  - The constructor builds a graph with vertices labeled '0', '1', '2', ... 'n'
+  - The addEdge() method creates the corresponding edge in the adjacency matrix
+- Return a minimum spanning tree using Prim's Algorithm
+  - This greedy algorithm 'builds' a tree by adding the lowest weight cutting edge to the tree
 
 ## Files
 - graph.h / graph.cpp
@@ -20,12 +25,12 @@ Run directly from the IDE.
 ## Time Complexity Analysis
 
 
-| Operation            | Time Complexity   |
-|----------------------|-------------------|
-| Insert in MinHeap    |                   |
-| Extract Min          |                   |
-| Decrease Key         |                   |
-| Prim’s MST Overall   |                   |
+| Operation            | Time Complexity |
+|----------------------|-----------------|
+| Insert in MinHeap    | O(log(n))       |
+| Extract Min          | O(1)            |
+| Decrease Key         |                 |
+| Prim’s MST Overall   |                 |
 
 _Explain why your MST implementation has the above runtime._
 
