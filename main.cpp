@@ -1,6 +1,8 @@
+#include <cstdint>
 #include <iostream>
 #include "graph.h"
-
+#include "math.h"
+using namespace std;
 int main() {
     Graph g(5);
     g.addEdge(0, 1, 2);
@@ -10,7 +12,6 @@ int main() {
     g.addEdge(1, 4, 5);
     g.addEdge(2, 4, 7);
     g.addEdge(3, 4, 9);
-
     g.primMST();
 
     return 0;
