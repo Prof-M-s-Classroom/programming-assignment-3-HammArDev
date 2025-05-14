@@ -29,8 +29,8 @@ Run directly from the IDE.
 |----------------------|-----------------|
 | Insert in MinHeap    | O(log(n))       |
 | Extract Min          | O(1)            |
-| Decrease Key         |                 |
-| Prim’s MST Overall   |                 |
+| Decrease Key         | O(log(n))       |
+| Prim’s MST Overall   | O((V+E)*log(n)) |
 
 _Explain why your MST implementation has the above runtime._
 

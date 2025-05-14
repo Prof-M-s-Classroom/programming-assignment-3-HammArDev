@@ -12,6 +12,7 @@ int main() {
     g.addEdge(1, 4, 5);
     g.addEdge(2, 4, 7);
     g.addEdge(3, 4, 9);
+    g.printGraph();
     g.primMST();
 
     return 0;
