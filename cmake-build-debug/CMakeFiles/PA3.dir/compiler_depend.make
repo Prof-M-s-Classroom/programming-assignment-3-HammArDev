@@ -172,7 +172,8 @@ CMakeFiles/PA3.dir/main.cpp.obj: C:/Users/sanga/programming-assignment-3-HammArD
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/sanga/programming-assignment-3-HammArDev/graph.h
+  C:/Users/sanga/programming-assignment-3-HammArDev/graph.h \
+  C:/Users/sanga/programming-assignment-3-HammArDev/heap.h
 
 
 C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc:
@@ -518,3 +519,5 @@ C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/inclu
 C:/Program\ Files/JetBrains/CLion\ 2024.3.1.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h:
 
 C:/Users/sanga/programming-assignment-3-HammArDev/graph.h:
+
+C:/Users/sanga/programming-assignment-3-HammArDev/heap.h:

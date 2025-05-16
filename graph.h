@@ -71,7 +71,7 @@ public:
                 }
             }
             //Add the lowest weight vertex to your tree
-            min.printheap();
+            //min.printheap();
             int* rawOutput = min.extractMin();
             vertices[currentPtr+1] = rawOutput[0];
             newestAddition=rawOutput[0];
